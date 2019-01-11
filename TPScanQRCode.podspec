@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPScanQRCode'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS 扫描二维码插件'
 
 # This description is used to generate tags and improve search results.
@@ -40,8 +40,9 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'TPQQSharePlus' => ['TPQQSharePlus/Assets/*.png']
   # }
-  s.resource_bundles = 'TPScanQRCode.bundle'
+  # s.resource_bundles = 'TPScanQRCode.bundle'
 
+  s.resource = 'TPScanQRCode.bundle'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
